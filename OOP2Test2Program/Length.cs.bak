@@ -24,7 +24,11 @@ namespace OOP2Test2Program
         /// <inheritdoc/>
         public override string ToString()
         {
+<<<<<<< HEAD
+            return this.value.ToString();
+=======
             return value.ToString();
+>>>>>>> origin/feature/toMerge
         }
     }
 }
